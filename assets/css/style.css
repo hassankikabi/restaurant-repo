@@ -14199,8 +14199,8 @@ body:not(.device-touch) #gotoTop {
 
 .error404 {
 	display: block;
-	font-size: 18vw;
-	font-weight: 700;
+	font-size: 10vw!important;
+	font-weight: 100;
 	color: #DDD;
 	line-height: 1;
 	letter-spacing: 4px;
