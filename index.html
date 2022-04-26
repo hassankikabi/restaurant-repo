@@ -20,7 +20,7 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700|Open+Sans:400,600,700|Dancing+Script&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
 
@@ -49,18 +49,14 @@
 
 		<div class="side-panel-wrap">
 
-			<div class="widget">
 
-				<h4 class="fw-bold">Feel Free to contact Us</h4>
-				<p>We are nothing without the continued support from our customers. Feel free to let us know on the areas that need improvement.</p>
-				<a href="comingsoon.html"><img src="assets/images/others/appstore.png" alt="App Link" height="60"></a>
-				<a href="comingsoon.html"><img src="assets/images/others/googleplay.png" alt="App Link" class="mt-2" height="60"></a>
-
-			</div>
 
 			<div id="q-contact" class="widget quick-contact-widget form-widget">
 
-				<h4>Quick Contact</h4>
+				<h4 class="fw-bold">Feel Free to contact Us</h4>
+				<p>We are nothing without the continued criticism from our customers. Feel free to let us know on the areas that need improvement.</p>
+
+				<h4>Suggestion Box</h4>
 				<div class="form-result"></div>
 				<form id="quick-contact-form" name="quick-contact-form" action="assets/include/form.php" method="post" class="quick-contact-form nobottommargin">
 					<div class="form-process"></div>
@@ -70,9 +66,14 @@
 					<textarea class="required not-dark mb-2 sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
 					<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
 					<input type="hidden" name="prefix" value="quick-contact-form-">
-					<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Send Email</button>
+					<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Send Suggestion</button>
 				</form>
 
+			</div>
+
+			<div class="widget">
+				<a href="comingsoon.html"><img src="assets/images/others/appstore.png" alt="App Link" height="60"></a>
+				<a href="comingsoon.html"><img src="assets/images/others/googleplay.png" alt="App Link" class="mt-2" height="60"></a>
 			</div>
 
 		</div>
@@ -171,12 +172,42 @@
 
 								
 
-								<div class="card mx-auto my-5 slide-img border-0" style="max-width: 450px" data-animate="img-to-left">
+								<!--<div class="card mx-auto my-5 slide-img border-0" style="max-width: 450px" data-animate="img-to-left">
 									<img src="assets/images/others/chef.jpg" class="card-img" alt="...">
 									<div class="card-img-overlay dotted-bg dotted-bg-light d-flex align-items-center justify-content-center">
 										<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="stretched-link display-3 text-white image_fade"><i class="icon-play-circle"></i></a>
 									</div>
-								</div>
+								</div>-->
+
+
+
+
+							<div id="carouselExampleIndicators" class="carousel slide mx-auto my-5 border-0" style="max-width: 450px"  data-bs-ride="carousel">
+							  <div class="carousel-indicators">
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  </div>
+							  <div class="carousel-inner">
+							    <div class="carousel-item active">
+							      <img src="assets/images/slider/chef.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							      <img src="assets/images/slider/chef.jpg" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							      <img src="assets/images/slider/chef.jpg" class="d-block w-100" alt="...">
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Previous</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Next</span>
+							  </button>
+							</div>
 
 								<img src="assets/images/svg/items.svg" alt="All Items">
 							</div>
@@ -699,6 +730,9 @@
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
+
+	 <!-- Bootstrap core JavaScript-->
+     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 	<!-- JavaScripts
 	============================================= -->
