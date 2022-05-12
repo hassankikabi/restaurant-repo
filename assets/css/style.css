@@ -3447,7 +3447,7 @@ html[xmlns] .slider-wrap {
 		border-right: 1px solid #EEE;
 	}
 
-	#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
+	#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,,0.1); }
 
 	.sticky-header-shrink #header-wrap #logo img {
 		height: 60px;
