@@ -13617,7 +13617,7 @@ h3.titular-title { font-size: 2rem; }
 	margin-bottom: 0;
 	font-weight: 500;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	color: #333;
 }
 
@@ -13849,7 +13849,7 @@ h3.titular-title { font-size: 2rem; }
 	.heading-block h4 + span { font-size: 17px; }
 
 	.emphasis-title h1,
-	.emphasis-title h2 { font-size: 65px !important; }
+	.emphasis-title h2 { font-size: 75px !important; }
 
 }
 

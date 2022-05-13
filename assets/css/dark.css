@@ -102,7 +102,7 @@ body #side-panel.dark {
 }
 
 .dark #header-wrap {
-	background-color: #000000;
+	background:url("../images/others/bg.jpg");
 }
 
 @media (min-width: 992px) {
