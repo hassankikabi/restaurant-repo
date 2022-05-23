@@ -13615,7 +13615,7 @@ h3.titular-title { font-size: 2rem; }
 .emphasis-title h1,
 .emphasis-title h2 {
 	margin-bottom: 0;
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #333;
@@ -13702,11 +13702,11 @@ h3.titular-title { font-size: 2rem; }
 /* Emphasis Title
 -----------------------------------------------------------------*/
 
-.emphasis-title { margin: 0 0 50px; }
+.emphasis-title { margin: 0 0 40px; }
 
 .emphasis-title h1,
 .emphasis-title h2 {
-	font-size: 64px;
+	font-size: 60px;
 	letter-spacing: -2px;
 }
 
